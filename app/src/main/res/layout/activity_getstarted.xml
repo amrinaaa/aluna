@@ -28,13 +28,14 @@
         app:srcCompat="@drawable/rec" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/playfair_display_semibold"
         android:text="ALUNA"
         android:textColor="#662B5E"
         android:textSize="48sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
