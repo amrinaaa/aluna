@@ -21,7 +21,7 @@ class getstarted : AppCompatActivity() {
 
         lifecycleScope.launch {
             delay(10000)
-            startActivity(Intent(this@getstarted, regis::class.java))
+            startActivity(Intent(this@getstarted, aftergetstarted::class.java))
             finish()
         }
     }
